@@ -16,11 +16,12 @@ a {
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
+  /* html {
     color-scheme: dark;
-  }
+  } */
   body {
+    padding: 0 50px !important;
     color: white;
-    background: black;
+    background: #2a595c;
   }
 }
